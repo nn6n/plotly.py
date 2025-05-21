@@ -1,3 +1,4 @@
-requests==2.25.1
+requests==2.32.2
 pytest==7.4.4
 narwhals>=1.15.1
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability

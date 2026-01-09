@@ -22,3 +22,4 @@ polars[timezone]
 pyarrow
 narwhals>=1.15.1
 anywidget==0.9.13
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability

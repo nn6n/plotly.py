@@ -1,12 +1,12 @@
-requests==2.25.1
+requests==2.32.4
 pandas==1.2.4
-numpy==1.20.2
+numpy==1.22.2
 xarray==0.17.0
 statsmodels
 Pillow==8.2.0
 pytest==8.1.1
 pytz==2021.1
-ipython[all]==7.22.0
+ipython==8.10.0
 ipykernel==5.5.3
 jupyter==1.0.0
 scipy==1.6.2
@@ -22,3 +22,7 @@ polars[timezone]
 pyarrow
 narwhals>=1.15.1
 anywidget==0.9.13
+idna>=3.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
+tornado>=6.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
